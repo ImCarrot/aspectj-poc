@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.carrot.personal.aspects.DataTrackAspect"/>
+        <weaver options="-verbose -showWeaveInfo">
+            <include within="com.carrot.personal.aspects.*"/>
+        </weaver>
+    </aspects>
+</aspectj>
